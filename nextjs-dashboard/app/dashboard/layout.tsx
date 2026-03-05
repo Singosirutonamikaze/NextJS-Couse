@@ -4,7 +4,7 @@ export default function Layout(
     {
         children
     }: {
-        children: React.ReactNode;
+        readonly children: React.ReactNode;
     }
 ) {
     return (
